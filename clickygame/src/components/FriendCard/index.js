@@ -7,7 +7,7 @@ const FriendCard = (props) => {
       <div className="card">
           <img alt={props.name} src={props.image} />
   
-        <span onClick={() => props.handleClick(props.id)} className="remove"></span>
+        <span onClick={() => props.handleClick(props.id)} className="clicked"></span>
       </div>
   
   );

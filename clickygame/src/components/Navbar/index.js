@@ -1,27 +1,27 @@
 import React from "react";
 
 const styles = {
+  li: {
+    width: "33.3%"
+  },
   navbar: {
       backgroundColor: "#5900b3",
       color: "#fff",
       fontFamily: "sans-serif",
       padding: "10px",
-      justifyContent: "space-evenly"
+      // justifyContent: "space-evenly"
     },
     
   navBrand: {
       fontSize: "30px",
       fontWeight: 900,
-      width: "33.3%"
     },
     
   clickGuess: {
-      
       marginLeft: "35%",
     },
     
   score: {
-      width: "33.3%",
       marginLeft: "67%",
     }
 };

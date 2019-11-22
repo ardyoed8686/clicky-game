@@ -3,7 +3,7 @@ import FriendCard from './components/FriendCard';
 import marvelFriends from './marvelFriends'
 import Header from './components/Header'
 import Navbar from './components/Navbar/index';
-// import './App.css';
+import './App.css';
 
 class App extends Component {
   state =  {
