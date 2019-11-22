@@ -1,0 +1,17 @@
+.container > header{
+  background-image: url("https://us.123rf.com/450wm/vectorgift/vectorgift1605/vectorgift160500111/56891065-colorful-confetti-over-dark-background-confetti-template-for-banner-flyer-birthday-vector-illustrati.jpg?ver=6");
+  background-color: #000000;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  
+}
+.h1{
+  font-size: 30px;
+
+}
+
+.h2 {
+  font-size: 20px;
+}
+
