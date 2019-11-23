@@ -33,7 +33,7 @@ const Navbar = (props) => {
     <ul className="navbar-nav">
       <li className="nav-brand" style={styles.navBrand} ><a className="brand" href="/">Clicky Game</a></li>
       <li className="click-guess" style={styles.clickGuess}> {props.guess}</li>
-      <li className="score" style={styles.score}>Score: {props.playerScore} | Top Score: {props.topScore}</li>
+      <li className="score" style={styles.score}>Score: {props.state.playerScore} | Top Score: {props.topScore}</li>
     </ul>
   </div>
 </nav>
